@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "CurrencyExchange",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

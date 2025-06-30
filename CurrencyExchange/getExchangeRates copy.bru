@@ -1,0 +1,19 @@
+meta {
+  name: getExchangeRates copy
+  type: http
+  seq: 3
+}
+
+post {
+  url: http://localhost:3001/convert
+  body: json
+  auth: inherit
+}
+
+body:json {
+    {
+      "base": "USD",
+      "target": "EUR",
+      "amount": "100"
+    }
+}
